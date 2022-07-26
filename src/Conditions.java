@@ -29,6 +29,10 @@ public class Conditions {
         {
             System.out.println("You are at the boundary");
         }
+        if(testScore < 200)
+        {
+            System.out.println("Test");
+        }
 
     }
 }
