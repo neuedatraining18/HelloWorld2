@@ -28,7 +28,7 @@ public class Fibonacci {
                 totDivByThree+=fibSeq[i];
             }
          }
-        average = total / 40.0;
+        average = total / (double) fibSeq.length;
         System.out.println("Total:"+total);
         System.out.println("Even:"+even);
         System.out.println("Divisible by 3:"+divByThree);
